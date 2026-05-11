@@ -1,8 +1,0 @@
-.card-widget.card-info {
-    background: url(/img/wz/yuq.png) center/cover no-repeat!important;
-}
-
-#aside-content >.card-widget.card-info::before {
-    background-image: linear-gradient(-25deg, hsla(118, 100%, 50%, 0.35), hsla(0, 100%, 50%, 0.35), hsla(118, 100%, 50%, 0.35), hsla(0, 100%, 50%, 0.35));
-    backdrop-filter: blur(0px);
-}
