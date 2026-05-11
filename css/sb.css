@@ -1,0 +1,67 @@
+/* 全局默认鼠标指针 */
+body,
+html {
+    cursor: url('/img/sb/正常选择.cur'), auto !important;
+}
+
+/* 输入框悬停效果 */
+input:hover, 
+textarea:hover {
+    cursor: url('/img/sb/链接选择.cur'), auto;
+}
+
+/* 忙碌状态指针（如加载中） */
+.busy-state,
+.loading {
+    cursor: url('/img/sb/忙.ani'), wait;
+}
+
+/* 禁用状态指针 */
+:disabled,
+.disabled {
+    cursor: url('/img/sb/不可用.ani'), not-allowed;
+}
+
+/* 文本选择指针 */
+::selection {
+    cursor: url('/img/sb/文本选择.cur'), text;
+}
+
+/* 调整大小指针 */
+.resize-vertical {
+    cursor: url('/img/sb/垂直调整大小.cur'), ns-resize;
+}
+.resize-horizontal {
+    cursor: url('/img/sb/水平调整大小.cur'), ew-resize;
+}
+.resize-diagonal1 {
+    cursor: url('/img/sb/沿对角线调整大小1.cur'), nwse-resize;
+}
+.resize-diagonal2 {
+    cursor: url('/img/sb/沿对角线调整大小2.cur'), nesw-resize;
+}
+
+/* 拖拽移动指针 */
+.draggable {
+    cursor: url('/img/sb/移动.cur'), move;
+}
+
+/* 精确选择指针（如绘图工具） */
+.precise-selection {
+    cursor: url('/img/sb/精确选择.cur'), crosshair;
+}
+
+/* 后台工作指针 */
+.background-working {
+    cursor: url('/img/sb/后台运行.cur'), progress;
+}
+
+/* 候选状态指针（如放置目标） */
+.drop-target {
+    cursor: url('/img/sb/候选.cur'), copy;
+}
+
+/* 手写输入区域 */
+.handwriting-area {
+    cursor: url('/img/sb/手写.cur'), text;
+}
